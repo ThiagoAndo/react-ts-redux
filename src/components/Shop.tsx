@@ -1,14 +1,13 @@
 import { type ReactNode } from "react";
 
-type ShopProps ={
-  children:ReactNode
-}
+type ShopProps = {
+  children: ReactNode;
+};
 
-export default function Shop({children}:ShopProps) {
-
+export default function Shop({ children }: ShopProps) {
   <section id="shop">
-  <h2>Elegant Clothing For Everyone</h2>
+    <h2>Elegant Clothing For Everyone</h2>
     <ul id="products">{children}</ul>
-  </section>
-
+  </section>;
 }
+<div className=""></div>
