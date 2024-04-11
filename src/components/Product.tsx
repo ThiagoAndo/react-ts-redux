@@ -28,9 +28,7 @@ export default function Product({
           <p className="product-price">${price}</p>
           <p>{description}</p>
         </div>
-        <p className="product-actions">
-          <button >Add to Cart</button>
-        </p>
+      
       </div>
     </article>
   );
