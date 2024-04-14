@@ -21,3 +21,6 @@ export default function Cart({ onClose }: CartProps) {
     document.getElementById("modal")!
   );
 }
+
+
+//trainig git
